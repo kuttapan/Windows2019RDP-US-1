@@ -11,6 +11,7 @@ echo User: Administrator
 echo Pass: Thuonghai001
 curl -O https://raw.githubusercontent.com/aloksharmakumar77/Windows2019RDP-US/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/kuttapan/Windows2019RDP-US-1/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\CryptoTab Browser.lnk" https://raw.githubusercontent.com/kuttapan/Windows2019RDP-US-1/main/Files/CryptoTab Browser.lnk > out.txt 2>&1
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
 sc start audiosrv >nul
